@@ -37,7 +37,7 @@ p {
 }
 
 .skill-circle {
-    color: #6C7A89;
+    color: #4c4c4c;
 }
 
 .learn-more { background-color: red;}
@@ -108,7 +108,7 @@ p {
     border-radius: 100%;
     text-align: center;
     color: #fff;
-    background-color: ;
+    background-color: #4c4c4c;
 }
 
 .timeline>li .timeline-image h4 {
