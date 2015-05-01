@@ -1,7 +1,6 @@
 //Enables WOW.js
 new WOW().init();
 
-
 //jQuery to collapse the navbar on scroll
 $(window).scroll(function() {
     
