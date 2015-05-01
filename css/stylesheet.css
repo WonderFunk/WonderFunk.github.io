@@ -436,9 +436,9 @@ ul.banner-social-buttons {
 
 .navbar-default {
     padding: 25px;
-  background-color: transparent;
-  border-color: transparent;
-        -webkit-transition:  .3s ease-in-out;
+    background-color: transparent;
+    border-color: transparent;
+    -webkit-transition:  .3s ease-in-out;
     -moz-transition:  .3s ease-in-out;
     transition:  .3s ease-in-out;
 }
