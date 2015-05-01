@@ -23,13 +23,13 @@
 <!-- Navigation -->
     <div class="navbar navbar-default navbar-fixed-top">
         <div class="container">
-            <a href="#page-top" class="navbar-brand page-scroll">Mark G.</a>
+            <a href="#page-top" class="navbar-brand page-scroll ">Mark G.</a>
             <button class="navbar-toggle" data-toggle="collapse" data-target=".navcollapse">
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <div class="collapse navbar-collapse navcollapse">
+            <div class="collapse navbar-collapse navcollapse navbar-right ">
                 <ul class="nav navbar-nav">
                     <li class="hidden"><a href="#page-top"></a></li>
                     <li><a class="page-scroll" href="#about">About</a></li>
@@ -43,19 +43,17 @@
     
     
 <!-- Intro Header -->
+    
     <div class="intro">
-        <div class="video-container">
-            <video id="intro-video" preload="true" autoplay="autoplay" loop="loop" volume="0">
-                <source src="vid/intro-header.mp4" type="video/mp4" media="all and (max-width:480px)">
-                <source src="vid/intro-header.ogv" type="video/ogg">
-            </video>
-        </div>
+        <video loop="loop" autoplay="true" preload="auto" id="bg-video" class="video-playing">
+            <source src="vid/intro-header.mp4" type="video/mp4">
+        </video>
         <div class="intro-body">
             <section id="intro" class="container">
                 <div class="row intro-header">
                     <div class="col-md-offset-2 col-md-8">
-                        <div class="intro-text">Hello!</div>
-                        <div class="brand-heading"> My name is <strong>Mark</strong><br><br>It's nice to meet <strong>you</strong></div>
+                        <div class="intro-text">Hello<span class="punctuate">!</span></div>
+                        <div class="brand-heading"> My name is <strong>Mark</strong><br><br>It<span class="punctuate">'</span>s nice to meet <strong>you</strong></div>
                         <a href="#about" class="btn btn-circle page-scroll">
                             <i class="fa fa-angle-double-down animated"></i>
                         </a>
@@ -70,7 +68,7 @@
     <section id="about" class="container text-center">
         <div class="row about-section">
             <div class="col-lg-offset-2 col-lg-8">
-                <h2>About Me</h2>
+                <h2 class="handwritten"> About Me</h2>
                 <p>I have an academic background in Sociology, giving me an interest and insight into the many complexities of social sitiations and interactions. On the other hand I have a strong interest and passion for technology - leaving me constantly trying to blend the two.</p>
                 <p>I am constantly looking out for new tech or tools to help myself, or others. It's almost a hobby of mine, but I want to take the next steps to turning it into a career. </p>
 <p>I find that just adding some colour and fancy formatting to a resume might not be enough these days to stand out. This is a fun experiment that I plan to keep working on as my own digital resume. </p>
@@ -83,7 +81,7 @@
     <section id="focuses" class="container">
         <div class="row section-title">
             <div class="col-lg-12 text-center">
-                <h2 class="section-heading">Focuses</h2>
+                <h2 class="section-heading handwritten">Focuses</h2>
                 <h3 class="section-subheading text-muted">What do you get from me</h3>
             </div>
         </div>
@@ -123,7 +121,7 @@
     <section id="experience" class="container">
         <div class="row section-title">
             <div class="col-lg-12 text-center">
-                <h2 class="section-heading wow animated bouncein">Experience</h2>
+                <h2 class="section-heading handwritten">Experience</h2>
                 <h3 class="section-subheading text-muted">Where i'm learning now</h3>
             </div>
         </div>
@@ -206,7 +204,7 @@
     <section id="contact" class="container text-center">
         <div class="row contact-section">
             <div class="col-lg-offset-2 col-lg-8">
-                <h2>Let's get in touch</h2>
+                <h2 class="handwritten">Let<span class="punctuate">'</span>s get in touch</h2>
                 <p>My doors are always open.</p>
                 <p><a href="mailto:mark.guissine@gmail.com">Send me an email.</a>
                 </p>
@@ -226,7 +224,7 @@
     </section>
     
 <!-- Image Section -->
-    
+
 <!-- Footer Section -->
     <footer>
         <div class="container footer-text text-center">
@@ -247,13 +245,6 @@
 
       ga('create', 'UA-62087103-1', 'auto');
       ga('send', 'pageview');
-
-    </script>
-    <script>
-    var vid = document.getElementById("intro-video");
-            function setPlaySpeed() { 
-        vid.playbackRate = 0.05;
-    } 
     </script>
     
 </body>
